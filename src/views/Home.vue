@@ -1,12 +1,16 @@
 <template>
+    <v-container>
     <HomeComponent/>
+    <LoginComponent/>
+    </v-container>
 </template>
 
 <script>
     import HomeComponent from "../components/home/HomeComponent";
+    import LoginComponent from "../components/login/LoginComponent";
     export default {
         name: "Home",
-        components: {HomeComponent},
+        components: {LoginComponent, HomeComponent},
         data: () => ({
             apiData: '',
         }),

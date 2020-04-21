@@ -59,6 +59,10 @@ export default {
   components: {
   },
   methods: {
-  }
+      login(){
+          window.location.href = 'http://localhost:8080/private';
+      }
+  },
+
 };
 </script>
