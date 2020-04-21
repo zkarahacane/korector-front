@@ -1,0 +1,10 @@
+{
+  "realm": "spring-cloud-gateway-realm",
+  "auth-server-url": "http://localhost:8090/auth",
+  "ssl-required": "external",
+  "resource": "spring-cloud-gateway-client",
+  "credentials": {
+    "secret": "a3feaa43-0df0-485e-b4b7-8cd26e7a9f3f"
+  },
+  "confidential-port": 0
+}
