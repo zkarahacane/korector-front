@@ -5,7 +5,7 @@
         </v-row>
         <v-row v-if="authenticated">
             {{ user }}
-            <v-btn @click="teams">Login</v-btn>
+            <v-btn @click="teams">TEST</v-btn>
         </v-row>
 
     </v-container>

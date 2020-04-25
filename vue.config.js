@@ -10,6 +10,12 @@ module.exports = {
         changeOrigin: true,
         xfwd: true
       },
+      '/users': {
+        target: 'http://localhost:8080',
+        ws:true,
+        changeOrigin: true,
+        xfwd: true
+      },
       '/logout': {
         target: 'http://localhost:8080',
         ws:true,
